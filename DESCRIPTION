@@ -7,3 +7,5 @@ Description: testing metadata roclet
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE, roclets = c("namespace", "rd", "collate", "roxymeta::metadata"))
+RoxygenNote: 7.2.0
